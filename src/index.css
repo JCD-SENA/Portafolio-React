@@ -1,0 +1,137 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: system-ui, sans-serif;
+	--background: #222222;
+	--primary-color: #01154a;
+	--secondary-color: #176bff;
+}
+
+body {
+	background-color: var(--background);
+}
+
+main {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+hr {
+	width: 97.5%;
+}
+
+footer {
+	margin: 20px;
+}
+
+footer {
+	display: flex;
+	margin-top: 5px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	flex-direction: flow;
+	align-items: center;
+	background-color: var(--primary-color);
+	color: white;
+	justify-content: space-between;
+}
+
+header {
+	display: flex;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	flex-direction: flow;
+	align-items: baseline;
+	background-color: var(--primary-color);
+	color: white;
+	justify-content: space-between;
+}
+
+ul {
+	display: flex;
+	flex-direction: flow;
+}
+
+li {
+	list-style: none;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+hr {
+	margin: 20px;
+}
+
+.socialMediaIcon {
+	margin-left: 10px;
+	margin-right: 10px;
+	height: 5vh;
+}
+
+.FooterButton {
+	background-color: var(--secondary-color);
+	padding: 5px;
+	border: none;
+	height: 5vh;
+	width: 5%;
+}
+
+.twoSides {
+	display: flex;
+	align-items: center;
+	margin: 2%;
+	justify-content: space-evenly;
+}
+
+.twoSides > .paragraph, .twoSides > .studiesList {
+	width: 40%;
+}
+
+.photo {
+	width: 25vw;
+	height: 25vw;
+	border-radius: 100%;
+}
+
+.title {
+	color: white;
+	font-weight: bold;
+	font-size: 32px;
+}
+
+.paragraph {
+	width: 90%;
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+}
+
+.studiesImage {
+	height: 57.5vh;
+	border-radius: 15px;
+}
+
+.study {
+	display: flex;
+	font-weight: bold;
+	align-items: center;
+	margin: 10px;
+	padding: 15px;
+	background-color: var(--secondary-color);
+	color: white;
+	justify-content: space-between;
+}
+
+.study > p {
+	width: 90%;
+	text-align: right;
+}
